@@ -1,0 +1,40 @@
+body {
+  background-color: #9999;
+  width: 100%;
+  height: 100%;
+  margin: 2%;
+}
+
+ul li {
+  margin: 40px 0px;
+}
+
+ul li a{
+  text-decoration: none;
+}
+
+.main {
+  list-style: none;
+  background-color: pink;
+  border: solid 15px yellow;
+  width: 50%;
+  height: auto;
+  margin: 0% 5%;
+}
+
+.area1,.area2,.area3 {
+  color: white;
+}
+
+.area1 {
+  background-color: black;
+  opacity: 0.6;
+}
+
+.area2 {
+  background: linear-gradient(to right,blue,lightgreen);
+}
+
+.area3 {
+  background: linear-gradient(to left,red,orange,yellow);
+}

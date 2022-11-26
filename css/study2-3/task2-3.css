@@ -1,0 +1,33 @@
+header,footer{
+  height: 50px;
+  width: 100%;
+  background-color: lightblue;
+}
+
+.zone{
+  height: 500px;
+  width: 100%;
+  background-color: white;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 35px;
+}
+
+.l-zone{
+  height: 200px;
+  width: 200px;
+  background: linear-gradient(black,red);
+}
+
+.c-zone{
+  height: 200px;
+  width: 200px;
+  background: linear-gradient(to left,black,red);
+}
+
+.r-zone{
+  height: 200px;
+  width: 200px;
+  background: linear-gradient(red,black);
+}
